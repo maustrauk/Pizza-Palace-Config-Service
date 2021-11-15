@@ -9,10 +9,10 @@ spring:
        - PrefixPath=/
        routes:
        #======================
-       - id: user
-         uri: lb://user
-         predicates:
-         - Path=/user/**
-         filters:
-         - StripPrefix=1
+      #  - id: user
+      #    uri: lb://user
+      #    predicates:
+      #    - Path=/user/**
+      #    filters:
+      #    - StripPrefix=1
        #======================
