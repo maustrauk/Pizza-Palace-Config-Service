@@ -9,7 +9,7 @@ spring:
        - PrefixPath=/
        routes:
       # ======================
-       - id: user
+       - id: users
          uri: lb://users
          predicates:
          - Path=/users/**
