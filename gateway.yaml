@@ -10,9 +10,9 @@ spring:
        routes:
       # ======================
        - id: user
-         uri: lb://user
+         uri: lb://users
          predicates:
-         - Path=/user/**
+         - Path=/users/**
          filters:
          - StripPrefix=1
       # ======================
