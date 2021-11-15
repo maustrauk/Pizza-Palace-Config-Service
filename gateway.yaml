@@ -16,7 +16,7 @@ spring:
          filters:
          - StripPrefix=1
       # ======================
-       - id: emailSender
+       - id: emails
          uri: lb://emails
          predicates:
          - Path=/emails/**
